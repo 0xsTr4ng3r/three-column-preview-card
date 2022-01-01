@@ -6,12 +6,29 @@
     margin: 0%;
     padding: 0%;
 }
+.main{
+    display: flex;
+    flex-direction: row;
+}
 .sedan{
     background-color: hsl(31, 77%, 52%);
     border-radius: 10px 0px 0px 10px;
 }
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%) ;
+    border-radius: 0px 10px 10px 0px;
+}
 .btn-sedan{
     color: hsl(31, 77%, 52%);
+}
+.btn-suvs{
+    color: hsl(184, 100%, 22%);
+}
+.btn-luxury{
+    color: hsl(179, 100%, 13%);
 }
 .bodyframe{
     font-family: 'Lexend Deca', sans-serif;
